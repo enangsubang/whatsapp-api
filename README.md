@@ -14,6 +14,9 @@ A. WINDOWS
 10. npm install
 11. npm run start
 12. Access URL : http://localhost:8000 or Access URL : http://IP_SERVER:8000
+13. Make sure the qr code appears
+14. Open your device (Smartphone). Scan QR.
+15. If everythings is OK, your WA-API is ready to go... 
 
 ========================================================================================
 
@@ -30,6 +33,84 @@ B. Linux Ubuntu
 9. npm install
 10. npm run start
 11. Access URL : http://IP_SERVER:8000
+12. Make sure the qr code appears
+13. Open your device (Smartphone). Scan QR.
+14. If everythings is OK, your WA-API is ready to go... 
+
+API COMMAND TEST
+-------------------------------------------------------------------------------------------
+1. Test via App : Postman Canary
+2. Send Text Message
+    http://IP_SERVER:8000/send-message
+    Method : Post
+    Body : form-data
+     KEY    : VALUE
+    -----------------------
+    number  : 62823xxxxxxx
+    message : Test Message 1234
+   
+   Klik Send
+
+3. Send File 
+     http://IP_SERVER:8000/send-media
+    Method : Post
+    Body : form-data
+     KEY    : VALUE
+    -----------------------
+    number  : 62823xxxxxxx
+    caption : Test Media Sending
+    file    : http://3.bp.blogspot.com/-Uz_fFLM8uAY/UWFq1dST2lI/AAAAAAAAANM/BUmc9xk84b4/s1600/Esapicture--0096.jpg
+   
+   Klik Send
+   
+4. Clear Message
+    http://IP_SERVER:8000/clear-message
+    Method : Post
+    KEY    : VALUE
+    -----------------------
+    number : 62823xxxxxxx
+    
+    Klik Send  
+    
+5. Reset Session/Device/QR
+    http://IP_SERVER:8000/reset
+    Method : Post
+    Klik Send  
+      
+    
+Use c-Url In PHP :
+
+<?php
+   $url = 'http://IP_SERVER:8000/send-message';
+	 $data = array(
+			'number' => $no_wa_kirim,
+			'message'  => ($pesan),
+		);
+    $data_string = json_encode($data);
+  $ch = curl_init($url);
+	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_VERBOSE, 0);
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 0);
+	curl_setopt($ch, CURLOPT_TIMEOUT, 360);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+	curl_setopt(
+		$ch,
+		CURLOPT_HTTPHEADER,
+		array(
+			'Content-Type: application/json',
+			'Content-Length: ' . strlen($data_string)
+		)
+	);
+	$res = curl_exec($ch);
+	curl_close($ch);
+?>
+
+
+      
+
 
 
 DONATING SUPPORT
