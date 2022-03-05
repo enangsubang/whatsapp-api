@@ -1,9 +1,9 @@
 Whatsapp API Tutorial
 
-=== NOTE : OPEN FILE CODE MODE TO DETAIL BEST VIEWS ===
+=== NOTE : OPEN FILE IN RAW/TEXT MODE TO DETAIL BEST VIEWS ===
 
 A. WINDOWS
----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 1. Download Window Installer Node JS Ver >= 12 + NPM : https://nodejs.org/en/download/
 2. Make sure version nodejs >= V.12+ : node -v
 3. Download and install git on windows https://git-scm.com/downloads
@@ -20,10 +20,10 @@ A. WINDOWS
 14. Open your device (Smartphone). Scan QR.
 15. If everythings is OK, your WA-API is ready to go... 
 
-========================================================================================
+==========================================================================
 
 B. Linux Ubuntu
-----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 1. apt install npm -y
 2. apt-get install git -y
 3. git clone https://github.com/enangsubang/wa.git
@@ -43,7 +43,7 @@ API COMMAND TEST
 -------------------------------------------------------------------------------------------
 1. Test via App : Postman Canary
 2. Send Text Message
-    http://IP_SERVER:8000/send-message
+   URL Access : http://IP_SERVER:8000/send-message
     Method : Post
     Body : form-data
      KEY    : VALUE
@@ -54,7 +54,7 @@ API COMMAND TEST
    Klik Send
 
 3. Send File 
-     http://IP_SERVER:8000/send-media
+    URL Access :  http://IP_SERVER:8000/send-media
     Method : Post
     Body : form-data
      KEY    : VALUE
@@ -66,7 +66,7 @@ API COMMAND TEST
    Klik Send
    
 4. Clear Message
-    http://IP_SERVER:8000/clear-message
+    URL Access : http://IP_SERVER:8000/clear-message
     Method : Post
     KEY    : VALUE
     -----------------------
@@ -75,7 +75,7 @@ API COMMAND TEST
     Klik Send  
     
 5. Reset Session/Device/QR
-    http://IP_SERVER:8000/reset
+    URL Access : http://IP_SERVER:8000/reset
     Method : Post
     Klik Send  
       
