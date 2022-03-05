@@ -166,6 +166,12 @@ const checkRegisteredNumber = async function(number) {
   return isRegistered;
 }
 
+//reset QR (Session)
+app.post('/reset', [], async(req, res) => {
+    client.destroy();
+    client.initialize();
+});
+
 // Send message
 app.post('/send-message', [
   body('number').notEmpty(),
