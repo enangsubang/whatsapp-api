@@ -1,6 +1,6 @@
 Whatsapp API Tutorial
 
-=== OPEN FILE TO DETAIL VIEWS ===
+=== NOTE : OPEN FILE CODE MODE TO DETAIL BEST VIEWS ===
 
 A. WINDOWS
 ---------------------------------------------------------------------------------------
@@ -83,13 +83,13 @@ API COMMAND TEST
 Use c-Url In PHP :
 
 <?php
-   $url = 'http://IP_SERVER:8000/send-message';
-	 $data = array(
-			'number' => $no_wa_kirim,
-			'message'  => ($pesan),
+  	$url = 'http://IP_SERVER:8000/send-message';
+	$data = array(
+			'number' => '62823xxxxxxx',
+			'message'  => 'this is sample message',
 		);
-    $data_string = json_encode($data);
-  $ch = curl_init($url);
+   	$data_string = json_encode($data);
+ 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -111,7 +111,7 @@ Use c-Url In PHP :
 ?>
 
 
-      
+ 
 
 
 
