@@ -107,7 +107,7 @@ Use c-Url In PHP :
 			'Content-Length: ' . strlen($data_string)
 		)
 	);
-	$res = curl_exec($ch);
+	echo $res = curl_exec($ch);
 	curl_close($ch);
 ?>
 
