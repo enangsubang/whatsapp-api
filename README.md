@@ -30,3 +30,20 @@ B. Linux Ubuntu
 9. npm install
 10. npm run start
 11. Access URL : http://IP_SERVER:8000
+
+
+DONATING SUPPORT
+-------------------------------------------------------------------------------------------
+Found this project helpful and want to give a support by donating?
+
+You can donate directly to my bank account below.
+
+Bank name: Bank BCA [ code: 014 ]
+Account number: 055 055 8424
+Receiver name: Enang Sumarna
+
+GOPAY : 70001082318765334
+
+Feel free to contact me by Whatsapp. Maybe for the transfer confirmation, so I know about your support.
+
+Thanks in advance.
