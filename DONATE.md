@@ -4,7 +4,7 @@ Found this project helpful and want to give a support by donating?
 
 You can donate directly to my bank account below.
 
-- Bank name: **Bank BCA** [ code: 008 ]
+- Bank name: **Bank BCA** [ code: 014 ]
 - Account number: **0550558424**
 - Receiver name: **Enang Sumarna**
 
