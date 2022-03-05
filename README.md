@@ -1,5 +1,7 @@
 Whatsapp API Tutorial
 
+=== OPEN FILE TO DETAIL VIEWS ===
+
 A. WINDOWS
 ---------------------------------------------------------------------------------------
 1. Download Window Installer Node JS Ver >= 12 + NPM : https://nodejs.org/en/download/
