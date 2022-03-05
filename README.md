@@ -1,6 +1,6 @@
 Whatsapp API Tutorial
 
-=== NOTE : OPEN FILE IN RAW/TEXT MODE TO DETAIL BEST VIEWS ===
+=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
 
 A. WINDOWS
 --------------------------------------------------------------------------
@@ -39,7 +39,8 @@ B. Linux Ubuntu
 13. Open your device (Smartphone). Scan QR.
 14. If everythings is OK, your WA-API is ready to go... 
 
-API COMMAND TEST
+API COMMAND TEST 
+=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
 -------------------------------------------------------------------------------------------
 1. Test via App : Postman Canary
 2. Send Text Message
