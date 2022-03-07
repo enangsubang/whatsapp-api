@@ -126,8 +126,10 @@ Bank name: Bank BCA [ code: 014 ]
 Account number: 055 055 8424
 Receiver name: Enang Sumarna
 
+OR
+
 GOPAY : 70001082318765334
 
-Feel free to contact me by Whatsapp. Maybe for the transfer confirmation, so I know about your support.
+Feel free to contact me by Whatsapp: 6282318765334. Maybe for the transfer confirmation, so I know about your support.
 
 Thanks in advance.
