@@ -8,8 +8,8 @@ A. WINDOWS
 2. Make sure version nodejs >= V.12+ : node -v
 3. Download and install git on windows https://git-scm.com/downloads
 4. Open Command Prompt (as an administrator)
-5. git clone https://github.com/enangsubang/wa.git
-6. cd wa
+5. git clone https://github.com/enangsubang/whatsapp-api.git
+6. cd whatsapp-api
 7. npm install puppeteer
 8. npm i whatsapp-web.js
 9. npm i express-fileupload
