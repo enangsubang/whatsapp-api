@@ -1,4 +1,4 @@
-Whatsapp API Tutorial
+Whatsapp API Tutorial - Please check me intervally. Scripts would be updated anytime - 
 
 === NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
 
@@ -33,8 +33,8 @@ B. Linux Ubuntu
 2. apt install npm -y
 3. npm install -g npm@latest
 4. apt-get install git -y
-5. git clone https://github.com/enangsubang/wa.git
-6. cd wa/
+5. git clone https://github.com/enangsubang/whatsapp-api.git
+6. cd whatsapp-api/
 7. sudo apt install -y gconf-service libasound2 libatk1.0-0 libatk-bridge2.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
 8. 	sudo apt-get update
 	sudo apt-get install -y libgbm-dev
@@ -46,7 +46,7 @@ B. Linux Ubuntu
 14. Access URL : http://IP_SERVER:8000
 15. Make sure the qr code appears
 16. Open your device (Smartphone). Scan QR.
-17. If everythings is OK, your WA-API is ready to go... 
+17. If everything is OK, your WA-API is ready to go... 
 
 API COMMAND TEST 
 === NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
