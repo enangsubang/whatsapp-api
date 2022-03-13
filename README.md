@@ -1,6 +1,6 @@
 Whatsapp API Tutorial - Please check me intervally. Scripts would be updated anytime - 
 
-=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
+=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE FOR BEST DETAIL VIEWS ===
 
 A. WINDOWS
 --------------------------------------------------------------------------
@@ -49,7 +49,7 @@ B. Linux Ubuntu
 17. If everything is OK, your WA-API is ready to go... 
 
 API COMMAND TEST 
-=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE TO DETAIL BEST VIEWS ===
+=== NOTE : OPEN THIS FILE IN RAW/TEXT/CODE MODE FOR BEST DETAIL VIEWS ===
 -------------------------------------------------------------------------------------------
 1. Test via App : Postman Canary
 2. Send Text Message
