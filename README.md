@@ -17,7 +17,7 @@ A. WINDOWS
 11. npm run start
 12. Access URL : http://localhost:8000 or Access URL : http://IP_SERVER:8000
 13. Make sure the qr code appears
-14. Open your device (Smartphone). Scan QR.
+14. Open your device (Smartphone). Open Whatsapp App, Enter Configuration, Scan QR.
 15. If everythings is OK, your WA-API is ready to go... 
 
 ==========================================================================
@@ -45,7 +45,7 @@ B. Linux Ubuntu
 13. npm run start
 14. Access URL : http://IP_SERVER:8000
 15. Make sure the qr code appears
-16. Open your device (Smartphone). Scan QR.
+16. Open your device (Smartphone). Open Whatsapp App, Enter Configuration, Scan QR.
 17. If everything is OK, your WA-API is ready to go... 
 
 API COMMAND TEST 
