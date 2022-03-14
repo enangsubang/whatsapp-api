@@ -71,7 +71,7 @@ API COMMAND TEST
     -----------------------
     number  : 62823xxxxxxx
     caption : Test Media Sending
-    file    : http://3.bp.blogspot.com/-Uz_fFLM8uAY/UWFq1dST2lI/AAAAAAAAANM/BUmc9xk84b4/s1600/Esapicture--0096.jpg
+    file    : https://export-download.canva.com/p5GXM/DAE65op5GXM/9/0/0001-21188028836.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220313T061350Z&X-Amz-Expires=65004&X-Amz-Signature=06b5fd86cabcde549ea794d14b2adb47c1645ce80413e70b3873d6faa81eb5b5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Support%2520me....jpg&response-expires=Mon%2C%2014%20Mar%202022%2000%3A17%3A14%20GMT
    
    Klik Send
    
