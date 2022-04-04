@@ -170,6 +170,15 @@ const checkRegisteredNumber = async function(number) {
   return isRegistered;
 }
 
+//GetContact
+app.post('/getContacts', [], async (req, res) => {
+  const cont = await client.getContacts();
+  res.status(200).json({
+    status: true,
+    message: cont,
+  });
+});
+
 //reset QR (Session)
 app.post('/reset', [], async(req, res) => {
     client.destroy();
