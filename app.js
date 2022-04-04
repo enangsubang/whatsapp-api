@@ -1,4 +1,4 @@
-const { Client, MessageMedia, LegacySessionAuth } = require('whatsapp-web.js');
+const { Client, MessageMedia,LocalAuth, LegacySessionAuth } = require('whatsapp-web.js');
 const express = require('express');
 const { body, validationResult } = require('express-validator');
 const socketIO = require('socket.io');
@@ -51,7 +51,10 @@ const client = new Client({
       '--disable-gpu'
     ],
   },
-  authStrategy: new LegacySessionAuth()
+ 
+  //authStrategy: new LegacySessionAuth()
+  authStrategy: new LocalAuth({ clientId: "single" })
+  
 });
 
 client.on('message', msg => {
