@@ -88,7 +88,12 @@ API COMMAND TEST
     URL Access : http://IP_SERVER:8000/reset
     Method : Post
     Klik Send  
-      
+    
+6. Get Contacts
+    URL Access : http://IP_SERVER:8000/getContacts
+    Method : Post
+    Klik Send  
+    payload messages: API Contacts  
     
 Use c-Url In PHP :
 
