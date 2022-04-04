@@ -52,6 +52,7 @@ const client = new Client({
     ],
   },
  
+  //authStrategy: new LocalAuth()
   //authStrategy: new LegacySessionAuth()
   authStrategy: new LocalAuth({ clientId: "single" })
   
